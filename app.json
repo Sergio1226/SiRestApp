@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "siRest-app",
+    "slug": "siRest-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.expo.siRestApp",
+      "versionCode": 1
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "7c523472-b0f2-4522-844a-39eea12849c8"
+      }
+    }
+  }
+}

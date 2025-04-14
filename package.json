@@ -1,0 +1,38 @@
+{
+  "name": "sirest-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-community/datetimepicker": "8.2.0",
+    "@react-native-picker/picker": "2.9.0",
+    "expo": "~52.0.42",
+    "expo-status-bar": "~2.0.1",
+    "node-fetch": "^2.6.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-keychain": "^10.0.0",
+    "react-native-ssl-pinning": "^1.5.8",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-web": "~0.19.13",
+    "web-streams-polyfill": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "eslint": "^8.57.0",
+    "eslint-config-expo": "~8.0.1",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.6",
+    "prettier": "^3.5.3"
+  },
+  "private": true
+}

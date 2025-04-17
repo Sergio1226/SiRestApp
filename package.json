@@ -14,7 +14,7 @@
     "@react-native-async-storage/async-storage": "1.23.1",
     "@react-native-community/datetimepicker": "8.2.0",
     "@react-native-picker/picker": "2.9.0",
-    "expo": "~52.0.42",
+    "expo": "~52.0.46",
     "expo-status-bar": "~2.0.1",
     "node-fetch": "^2.6.7",
     "react": "18.3.1",
@@ -24,7 +24,8 @@
     "react-native-ssl-pinning": "^1.5.8",
     "react-native-vector-icons": "^10.2.0",
     "react-native-web": "~0.19.13",
-    "web-streams-polyfill": "^4.1.0"
+    "web-streams-polyfill": "^4.1.0",
+    "expo-linear-gradient": "~14.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

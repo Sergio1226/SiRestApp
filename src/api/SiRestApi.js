@@ -37,7 +37,7 @@ export default class Api {
       this.authToken = data.validateToken;
 
       const now = new Date();
-      this.tokenExpiry = now.getTime() + 6 * 60 * 60 * 1000; // 6 horas
+      this.tokenExpiry = now.getTime() + 6 * 60 * 60 * 1000; 
 
       return this.authToken;
     } catch (error) {
@@ -54,7 +54,7 @@ export default class Api {
 
   async sirest(month, day, type) {
     await this.ensureValidToken();
-
+    
     const user = await AsyncStorage.getItem("user");
     const year = new Date().getFullYear();
 
